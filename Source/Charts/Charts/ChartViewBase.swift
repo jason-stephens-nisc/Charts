@@ -193,8 +193,8 @@ open class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
         
         _xAxis = XAxis()
         
-        self.addObserver(self, forKeyPath: "bounds", options: .new, context: nil)
-        self.addObserver(self, forKeyPath: "frame", options: .new, context: nil)
+//        self.addObserver(self, forKeyPath: "bounds", options: .new, context: nil)
+//        self.addObserver(self, forKeyPath: "frame", options: .new, context: nil)
     }
     
     // MARK: - ChartViewBase
